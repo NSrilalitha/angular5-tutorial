@@ -9,8 +9,11 @@ https://www.freecodecamp.org/news/want-to-learn-angular-heres-our-free-33-part-c
 
 https://scrimba.com/p/pQxesM/ce4baHb
 
-Visit angular document 
+Visit angular documentation
 https://angular.io/guide/setup-local
+
+Angular online playground
+https://stackblitz.com/
 
 Overview of Angular 5
 -----------------------
