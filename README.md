@@ -6,12 +6,13 @@ There is a 1hour angular 5 course avaialble in Udemy
 https://www.udemy.com/course/angular-5/
 
 https://www.freecodecamp.org/news/want-to-learn-angular-heres-our-free-33-part-course-by-dan-wahlin-fc2ff27ab451/
+
 https://scrimba.com/p/pQxesM/ce4baHb
 
 Overview of Angular 5
-=====================
+-----------------------
 1. Installation
-================
+---------------
 
 node -v
 
@@ -31,7 +32,7 @@ ng serve
 one command prompt should open always with ng serve, so that the application will be running
 
 2. Angular 5 components
-========================
+------------------------
 
 1. To create component using Angular CLI use below command
    ng generate component home -> this creates component called home
@@ -46,7 +47,8 @@ one command prompt should open always with ng serve, so that the application wil
    
    
    home.component.ts
-   ------------------
+   
+   ==================
    first import section
    
    eg: import { Component, OnInit } from '@angular/core';
@@ -76,7 +78,7 @@ one command prompt should open always with ng serve, so that the application wil
    ng g c about -> this create component called about
    
 3. Templating and Styling
-=========================
+------------------------------
 
 For templating we have to modify component.html
 eg: home.component.html
@@ -88,7 +90,7 @@ for global styling we can modify
 styles.scss
 
 4. Interpolation, property & event binding
-==========================================
+-------------------------------------------
 
 Interpolation:
 -------------
@@ -151,7 +153,7 @@ eg: lets say we have array defined in ts file
 
 
 5. Animations:
-==============
+----------------
 Inorder to use animations we have to install animations library using CLI as shown below
 
 npm install @angular/animations@latest --save
@@ -180,7 +182,7 @@ And animations should reside in @Component section after styleUrls
 
 
 6. Routing
-============
+-----------
 For routing we need to update in app-routing.module.ts
 
 here import components whatever we want to rounte
@@ -220,7 +222,7 @@ sendMeHome() {
 }
 
 7. Services 
-============
+-------------
 
 Services are generally used to share data among multiple components or to make http calls.
 
@@ -245,13 +247,12 @@ export class DataService {
 
 }
 
-
 Services should be updated in app.module.ts
 
 we have to import that service and it should be avaialble in providers section
 
 8. App Deployment
-==================
+-------------------
 
 Use Angular CLI to build the application
 ng build
