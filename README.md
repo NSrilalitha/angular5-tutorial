@@ -17,8 +17,10 @@ https://stackblitz.com/
 
 Overview of Angular 5
 -----------------------
+
 1. Installation
 ---------------
+
 To install angular, we should have node js and npm installed in your machine. So install node js and npm and verify versions using below command.
 
 	node -v
@@ -57,19 +59,19 @@ one command prompt should open always with ng serve, so that the application wil
 
 1. To create component using Angular CLI use below command
 
-   	ng generate component home -> this creates component called home
+   		ng generate component home -> this creates component called home
    
    For component it creates following files
    
-   	src/app/home/home.component.html
+   		src/app/home/home.component.html
    
-   	src/app/home/home.component.spec.ts
+   		src/app/home/home.component.spec.ts
    
-  	 src/app/home/home.component.ts
+  	 	src/app/home/home.component.ts
    
-   	src/app/home/home.component.scss
+   		src/app/home/home.component.scss
    
-   	and updates src/app/app.module.ts
+   		and updates src/app/app.module.ts
    
 shorthands for generate is g and for component is c. so we can write generate command as shown below
    
@@ -121,7 +123,8 @@ styles.scss
 
 Interpolation:
 -------------
-eg: 	{{ itemCount }} 
+Eg:
+	{{ itemCount }} 
 
 itemCount should declared in home.component.ts file as shown below
 
