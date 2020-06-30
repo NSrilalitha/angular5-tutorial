@@ -287,6 +287,18 @@ Services should be updated in app.module.ts
 
 we have to import that service and it should be avaialble in providers section
 
+Using HttpClient
+----------------
+To use HttpClient in service first import HttpClient in service ts file. 
+
+	import { HttpClient } from '@angular/common/http';
+
+	constructor(private http: HttpClient) { }
+	
+To invoke any http/https API we can use HttpClient as shown below
+
+	return this.http.get('url');
+	
 8. App Deployment
 -------------------
 Use Angular CLI to build the application
